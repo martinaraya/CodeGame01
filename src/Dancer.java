@@ -3,7 +3,7 @@ public class Dancer {
 	int positionActual;
 
 	int getPosicionEn(Integer n) {
-
+                /*primera version basada en algorimo de Fibonacci*/
 		Integer i = 0;
 		int stepsPrevious = 0, stepsPenultimate = 0;
 		int posAnterior = 0;
@@ -32,6 +32,9 @@ public class Dancer {
 	}
 
 	int getPosicionEnNew(Integer n) {
+		
+		/*segunda versión, una vez descubierto que los resultados son cíclicos*/
+		
 		int pos = 0;
 		// divisible entre 6
 		if (n % 6 == 0) {
