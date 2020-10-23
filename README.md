@@ -14,6 +14,8 @@ That is, on stage 3, a dancer will have to take 3 steps backwards (-2 -1).
 
 The image below shows the first steps of the dancer
 
+https://raw.githubusercontent.com/martinaraya/CodeGame01/main/dance.png
+
 Implement the method `int Algorithm.getPositionAt(int n)` to return the dancer's position at stage `n`.
 
 Input: `0 <= n <= 2147483647`
